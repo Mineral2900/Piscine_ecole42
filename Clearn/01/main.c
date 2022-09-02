@@ -4,14 +4,21 @@ int main()
 {
 	char c;
 
-	c = 'k';					 ## = c '\n';
-	printf("%lu\n", sizeof(c), c, c);		 ## = printf("%lu %d %c\n", sizeof(c), c, c);
+	c = 'k';					 
+	printf("%lu\n", sizeof(c), c, c);		 
 
 	char 	c;
 	int 	i;
-	float	f;
+	float	;
 	double 	d;
 
 	printf("%lu\n", sizeof(f));
 	
 }
+
+int man()
+{
+	c '\n';
+	printf("%lu %d %c\n", sizeof(c), c, c);
+}
+
