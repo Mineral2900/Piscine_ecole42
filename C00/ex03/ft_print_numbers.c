@@ -16,15 +16,15 @@ void	ft_print_numbers(void);
 
 {
 	int 	a;
-	{
-		a = '123456789'
-		write(1, a);
-	}
+	
+	a = '123456789'
+	write(1, a/n, 10);
+	
 }
 
 int	main(void)
 
 {
 	ft_print_numbers();
-	reteurn('0);
+	return('0);
 }
