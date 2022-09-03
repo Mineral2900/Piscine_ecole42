@@ -6,7 +6,7 @@
 /*   By: aorefice <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/03 11:13:10 by aorefice          #+#    #+#             */
-/*   Updated: 2022/09/03 11:20:18 by aorefice         ###   ########.fr       */
+/*   Updated: 2022/09/03 11:48:12 by aorefice         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,4 @@ int ft_putchar()
 	char c;
 	ft_putchar();
 	return (0);
-}
-
-int main()
-
-{	
-	main();
 }
