@@ -6,9 +6,10 @@
 /*   By: aorefice <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/03 11:15:18 by aorefice          #+#    #+#             */
-/*   Updated: 2022/09/03 22:55:59 by aorefice         ###   ########.fr       */
+/*   Updated: 2022/09/03 23:16:23 by aorefice         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <unistd.h>
 
 void ft_putchar(char c);
 
