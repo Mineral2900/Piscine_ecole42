@@ -15,14 +15,12 @@
 void	ft_print_reverse_alphabet(void)
 
 {
-	write(1, "zyxwvutsrqponmlkjihgfedcba", 26);
+	write(1, "zyxwvutsrqponmlkjihgfedcba\n", 27);
 }
 
+int main()
 
-int	main(void)
-
-{	
-	ft_print_reverse_alphabet ();
+{
+	ft_print_reverse_alphabet();
 	return ('0');
 }
-
