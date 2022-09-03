@@ -6,7 +6,7 @@
 /*   By: aorefice <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/03 11:15:18 by aorefice          #+#    #+#             */
-/*   Updated: 2022/09/03 23:16:23 by aorefice         ###   ########.fr       */
+/*   Updated: 2022/09/03 23:46:29 by aorefice         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -35,7 +35,7 @@ void middle(int x, int y)
 			}
 			if (x > 1)
 				ft_putchar('*');
-			++count;
+				++count;
 		}
 	}
 }
@@ -67,7 +67,7 @@ void	rush(int x, int y)
 
 	if (x > 0 && y > 0)
 		ft_putchar('/');
-	i = 0;
+		i = 0;
 	while (i < (x - 2) && y > 0)
 	{
 		ft_putchar('*');
