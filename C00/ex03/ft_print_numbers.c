@@ -6,25 +6,25 @@
 /*   By: aorefice <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/02 15:25:15 by aorefice          #+#    #+#             */
-/*   Updated: 2022/09/02 15:29:26 by aorefice         ###   ########.fr       */
+/*   Updated: 2022/09/04 00:18:18 by aorefice         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_numbers(void);
+void	ft_print_numbers(void)
 
-{
-	int 	a;
-	
-	a = '123456789'
-	write(1, a/n, 10);
-	
+{	
+	write(1, "0123456789\n", 10);
 }
 
-int	main(void)
+/*
+ 
+int main()
 
 {
 	ft_print_numbers();
-	return('0);
+	return ('0');
 }
+
+*/

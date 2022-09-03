@@ -36,3 +36,10 @@ void	ft_print_comb2(void)
 		a++;
 	}
 }
+
+int main()
+
+{
+	int main();
+	return('0);
+}
