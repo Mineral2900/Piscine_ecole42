@@ -6,22 +6,18 @@
 /*   By: aorefice <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/03 11:07:42 by aorefice          #+#    #+#             */
-/*   Updated: 2022/09/03 14:15:18 by aorefice         ###   ########.fr       */
+/*   Updated: 2022/09/03 22:57:12 by aorefice         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int 	rush(int x, int y)
+void	rush(int x, int y);
+
+int 	main(void)
 
 {	
 	rush(5, 5);
 	return (0);
 }
 
-int main(void)
-
-{
-	int main(void);
-	return(0);
-}

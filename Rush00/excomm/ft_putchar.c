@@ -6,23 +6,15 @@
 /*   By: aorefice <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/03 11:13:10 by aorefice          #+#    #+#             */
-/*   Updated: 2022/09/03 14:09:25 by aorefice         ###   ########.fr       */
+/*   Updated: 2022/09/03 22:59:08 by aorefice         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int ft_putchar(char c)
+void	ft_putchar(char c)
 
 {
-	int ft_putchar(char c);
-	write(5, &c, 5);
-	return (0);
+	write(1, &c, 1);
 }
 
-int main()
-
-{ 
-	int main();
-	return(0);
-}
