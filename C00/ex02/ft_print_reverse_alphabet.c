@@ -6,7 +6,7 @@
 /*   By: aorefice <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/02 14:26:20 by aorefice          #+#    #+#             */
-/*   Updated: 2022/09/04 00:19:10 by aorefice         ###   ########.fr       */
+/*   Updated: 2022/09/04 12:10:57 by aorefice         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ void	ft_print_reverse_alphabet(void)
 {
 	write(1, "zyxwvutsrqponmlkjihgfedcba\n", 27);
 }
-
-/*
  
 int main()
 
@@ -27,4 +25,3 @@ int main()
 	return ('0');
 }
 
-*/
