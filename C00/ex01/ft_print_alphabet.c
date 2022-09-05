@@ -6,7 +6,7 @@
 /*   By: aorefice <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/02 14:11:13 by aorefice          #+#    #+#             */
-/*   Updated: 2022/09/04 00:19:26 by aorefice         ###   ########.fr       */
+/*   Updated: 2022/09/05 13:51:00 by aorefice         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,8 @@ void	ft_print_alphabet(void)
 /*
 int main(void)
 
-{	ft_print_alphabet();
+{
+	ft_print_alphabet();
 	return('0');
 }
 */

@@ -6,13 +6,13 @@
 /*   By: aorefice <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/02 13:36:56 by aorefice          #+#    #+#             */
-/*   Updated: 2022/09/04 00:19:57 by aorefice         ###   ########.fr       */
+/*   Updated: 2022/09/05 13:51:43 by aorefice         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void ft_putchar(char c)
 
 {
 	write(1, &c, 1);
@@ -21,8 +21,9 @@ void	ft_putchar(char c)
 /*
 int  main (void)
 
-{	ft_putchar('c')
-	ft_putchar('/n')
-	return ('0')
+{	
+	ft_putchar('c');
+	ft_putchar('\n');
+	return (0);
 }
 */

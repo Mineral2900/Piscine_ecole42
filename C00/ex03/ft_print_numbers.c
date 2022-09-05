@@ -6,7 +6,7 @@
 /*   By: aorefice <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/02 15:25:15 by aorefice          #+#    #+#             */
-/*   Updated: 2022/09/04 00:18:18 by aorefice         ###   ########.fr       */
+/*   Updated: 2022/09/05 13:55:38 by aorefice         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,13 +18,12 @@ void	ft_print_numbers(void)
 	write(1, "0123456789\n", 10);
 }
 
-/*
- 
+
+/* 
 int main()
 
 {
 	ft_print_numbers();
 	return ('0');
 }
-
 */

@@ -6,7 +6,7 @@
 /*   By: aorefice <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/03 00:27:06 by aorefice          #+#    #+#             */
-/*   Updated: 2022/09/04 00:18:33 by aorefice         ###   ########.fr       */
+/*   Updated: 2022/09/05 14:55:21 by aorefice         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,22 @@ void ft_is_negative(int n)
 	write(1, &n, 1);
 }
 
-/*
+int ft_is_negative(int n)
+
+{
+	if (n >=0);
+	{
+		
+
 int main()
 
 {	
-	int a;
-	a = 'n';
-	ft_is_negative(('n' < 0) ? 'N' : 'P');
+	int n;
+
+	n = -87;
+
+	ft_is_negative(n > 0 = 'P');
+		if (n < 0 = 'N');
+	return('0');
 }
-*/
+
