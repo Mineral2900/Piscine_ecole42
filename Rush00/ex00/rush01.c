@@ -39,7 +39,7 @@ void rush(int x, int y)
     int z;
 
     z = 0;
-    if (y >+ 1 && x >1)
+    if (y >= 1 && x >=1)
             ft_print(x, '/', '*', '\\');
         while (z < (y -2) && x >=1)
         {
@@ -79,7 +79,7 @@ void rush(int x, int y)
 
 	z = 0;
 
-	if (y >+ 1 && x >1)
+	if (y >= 1 && x >=1)
 			ft_print(x, 'o', '-', 'o');
 		while (z < (y -2) && x >=1)
 		{
@@ -121,7 +121,7 @@ void rush(int x, int y)
 	int z;
 
 	z = 0;
-	if (y >+ 1 && x >1)
+	if (y >= 1 && x >=1)
 			ft_print(x, 'A', 'B', 'A');
 		while (z < (y -2) && x >=1)
 		{
@@ -155,7 +155,7 @@ void rush(int x, int y)
 	int z;
 
 	z = 0;
-	if (y >+ 1 && x >1)
+	if (y >= 1 && x >=1)
 		ft_print(x, 'A', 'B', 'C');
 	while (z < (y -2) && x >=1)
 	{
@@ -192,7 +192,7 @@ void rush(int x, int y)
 	int z;
 
 	z = 0;
-	if (y >+ 1 && x >1)
+	if (y >= 1 && x >=1)
 		ft_print(x, 'A', 'B', 'C');
 	while (z < (y -2) && x >=1)
 	{
