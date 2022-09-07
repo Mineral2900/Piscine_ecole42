@@ -1,3 +1,14 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aorefice <marvin@42lausanne.ch>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/09/07 02:32:01 by aorefice          #+#    #+#             */
+/*   Updated: 2022/09/07 02:33:22 by aorefice         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 #include <unistd.h>
 
 void	ft_is_negative(int n)
@@ -13,12 +24,11 @@ void	ft_is_negative(int n)
 	}
 	
 }
-
 /*
 int main(void)
 
 {	
-	ft_is_negative(-2);
+	ft_is_negative(65);
 	return('0');
 }
 */
